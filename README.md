@@ -13,13 +13,14 @@ Each dataset is in format expected by the program.
 
 Explanation of the format:
 
-First line: A B C D
+First line: A B C D E
 
 "A" is the amount of data points.<br />
 "B" is the amount of attributes.<br />
-"C" is the maximum iterations.<br />
-"D" indicates if contains a name for each data point. The value for "D" is 0 (not contains) or 1 (contains).<br />
-The next "A" lines contains "B" attributes and the data point name (if "D" variable is 1).<br />
+"C" is the amount of clusters.<br />
+"D" is the maximum iterations.<br />
+"E" indicates if contains a name for each data point. The value for "E" is 0 (not contains) or 1 (contains).<br />
+The next "A" lines contains "B" attributes and the data point name (if "E" variable is 1).<br />
 
 Example of dataset:
 
@@ -34,6 +35,7 @@ Example of dataset:
 
 7 is the amount of data points.<br />
 2 is the amount of attributes.<br />
+2 is the amount of clusters.<br />
 100 is the maximum iterations.<br />
 0 indicates that not contains data point name.<br />
 The next 7 lines contains 2 attributes each.<br />
