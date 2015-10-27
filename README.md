@@ -49,6 +49,8 @@ Example that contains data point name (iris-data):
 4.6 3.1 1.5 0.2 Iris-setosa<br />
 (...)<br />
 
+The euclidean distance was used for to calculate the distance of each data point for the centroid of cluster.
+
 The algorithm stops by maximum number of iterations or if no data point exchange cluster.
 
 Doubts? mcastrosouza@live.com
