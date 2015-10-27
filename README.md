@@ -1,2 +1,2 @@
-# kmeans
-Implementation of the k-means clustering algorithm
+# K-Means Clustering Algorithm
+Implementation in C++ of the K-Means clustering algorithm.
