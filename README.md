@@ -21,7 +21,7 @@ First line: A B C D
 "D" indicates if contains a name for each data point. The value for "D" is 0 (not contains) or 1 (contains).<br />
 The next "A" lines contains "B" attributes and the data point name (if "D" variable is 1).<br />
 
-Example of the dataset:
+Example of dataset:
 
 7 2 2 100 0<br />
 1.0 1.0<br />
