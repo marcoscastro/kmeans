@@ -14,10 +14,15 @@ Each dataset is in format expected by the program.
 Explanation of the format:
 
 First line: A B C D
+
 "A" is the amount of data points.
+
 "B" is the amount of attributes.
+
 "C" is the maximum iterations.
+
 "D" indicates if contains a name for each data point. The value for "D" is 0 (not contains) or 1 (contains).
+
 The next "A" lines contains "B" attributes and the data point name (if "D" variable is 1).
 
 Example of the dataset:
